@@ -5,4 +5,5 @@ inhibit_all_warnings!
 
 target 'TechViewAlamofire' do
     pod 'Alamofire', '~> 4.7.1'              # Networking
+    pod 'SwiftyJSON'
 end

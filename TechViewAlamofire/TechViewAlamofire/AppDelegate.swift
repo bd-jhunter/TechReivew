@@ -16,7 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        print("\(test())")
         return true
+    }
+
+    func test() -> String {
+        let a = "a"
+        let b = "b"
+        let c = "c"
+        return "\(a)\(b)\(c)"
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

@@ -12,6 +12,7 @@
 		42801EBD211AEA9B000DA94F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42801EBB211AEA9B000DA94F /* Main.storyboard */; };
 		42801EBF211AEA9F000DA94F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42801EBE211AEA9F000DA94F /* Assets.xcassets */; };
 		42801EC2211AEA9F000DA94F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42801EC0211AEA9F000DA94F /* LaunchScreen.storyboard */; };
+		4294A160211C159100F1190F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4294A15F211C159100F1190F /* ResultViewController.swift */; };
 		FEAD15A7CC129810CF1AB5F3 /* libPods-TechViewAlamofire.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 224C8CB8015F0A3B7C8DC271 /* libPods-TechViewAlamofire.a */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		42801EBE211AEA9F000DA94F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42801EC1211AEA9F000DA94F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42801EC3211AEA9F000DA94F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4294A15F211C159100F1190F /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		66796F51D76AC0F457680298 /* Pods-TechViewAlamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechViewAlamofire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TechViewAlamofire/Pods-TechViewAlamofire.debug.xcconfig"; sourceTree = "<group>"; };
 		8C90F80D867DEAA7BD59FCA9 /* Pods-TechViewAlamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechViewAlamofire.release.xcconfig"; path = "Pods/Target Support Files/Pods-TechViewAlamofire/Pods-TechViewAlamofire.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +73,7 @@
 			children = (
 				42801EB7211AEA9B000DA94F /* AppDelegate.swift */,
 				42801EB9211AEA9B000DA94F /* ViewController.swift */,
+				4294A15F211C159100F1190F /* ResultViewController.swift */,
 				42801EBB211AEA9B000DA94F /* Main.storyboard */,
 				42801EBE211AEA9F000DA94F /* Assets.xcassets */,
 				42801EC0211AEA9F000DA94F /* LaunchScreen.storyboard */,
@@ -183,6 +186,7 @@
 			files = (
 				42801EBA211AEA9B000DA94F /* ViewController.swift in Sources */,
 				42801EB8211AEA9B000DA94F /* AppDelegate.swift in Sources */,
+				4294A160211C159100F1190F /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
