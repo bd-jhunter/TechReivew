@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.tableFooterView = UIView(frame: CGRect(x: 0, y: 0, width: 100, height: 0))
+
         let titleView = UIButton(frame: CGRect(x: 0, y: 0, width: 300, height: 50))
         titleView.setTitle("Tech view - Alamofire", for: .normal)
         titleView.setTitleColor(UIColor.blue, for: .normal)

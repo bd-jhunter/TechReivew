@@ -28,6 +28,19 @@ enum RequestType {
             return "https://jsonplaceholder.typicode.com/posts/1"
         }
     }
+
+    var title: String? {
+        switch self {
+        case .get:
+            return "GET"
+        case .post:
+            return "POST"
+        case .put:
+            return "PUT"
+        case .delete:
+            return "DELETE"
+        }
+    }
 }
 
 class ResultViewController: UIViewController {
@@ -84,7 +97,7 @@ class ResultViewController: UIViewController {
     private let dispatchQueue = DispatchQueue.global(qos: .default)
 
     // MARK: - IBOutlet
-    @IBOutlet private weak var textView: UITextView!
+    @IBOutlet private weak var tableView: UITableView!
     @IBOutlet private weak var loadingView: UIView!
     @IBOutlet private weak var activityIndicator: UIActivityIndicatorView!
 
@@ -103,11 +116,19 @@ class ResultViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         loadingView.layer.cornerRadius = 7.0
+        tableView.dataSource = self
+        tableView.delegate = self
+        tableView.tableFooterView = UIView(frame: CGRect(x: 0, y: 0, width: 100, height: 0))
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 
+        let titleView = UIButton(frame: CGRect(x: 0, y: 0, width: 300, height: 50))
+        titleView.setTitle(requestType?.title, for: .normal)
+        titleView.setTitleColor(UIColor.blue, for: .normal)
+        navigationItem.titleView = titleView
+        navigationItem.title = ""
         loadData()
     }
 
@@ -145,7 +166,7 @@ class ResultViewController: UIViewController {
                 strongSelf.headers["\(field)"] = "\(value)"
             }
             strongSelf.body = json.rawString()
-            strongSelf.textView.text = strongSelf.body
+            strongSelf.tableView.reloadData()
         }
     }
 
@@ -156,5 +177,62 @@ class ResultViewController: UIViewController {
     private func showLoading(show: Bool) {
         loadingView.isHidden = !show
         show ? activityIndicator.startAnimating() : activityIndicator.stopAnimating()
+    }
+}
+
+extension ResultViewController: UITableViewDelegate, UITableViewDataSource {
+
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 2
+    }
+
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if section == 0 {
+            return headers.count
+        } else {
+            return 1
+        }
+    }
+
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        if 0 == indexPath.section {
+            return 44.0
+        } else {
+            return 400.0
+        }
+    }
+
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 30.0
+    }
+
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        if 0 == section {
+            return "Headers"
+        } else {
+            return "Body"
+        }
+    }
+
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        if 0 == indexPath.section {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "header", for: indexPath)
+            let keyLabel = cell.contentView.subviews.first(where: { $0.tag == 100 })
+            let valueLabel = cell.contentView.subviews.first(where: { $0.tag == 101 })
+            if let keyLabel = keyLabel as? UILabel, let valueLabel = valueLabel as? UILabel {
+                let key = headers.keys.sorted(by: <)[indexPath.row]
+                let value = headers[key]
+                keyLabel.text = key
+                valueLabel.text = value
+            }
+            return cell
+        } else {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "body", for: indexPath)
+            let bodyLabel = cell.contentView.subviews.first(where: { $0.tag == 100 })
+            if let bodyLabel = bodyLabel as? UITextView {
+                bodyLabel.text = body
+            }
+            return cell
+        }
     }
 }
