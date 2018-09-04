@@ -16,6 +16,44 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+//        let person = Person()
+//        person.identity = String(format: "3%04ld", 0)
+//        person.name = String(format: "人名: %03ld", 0)
+//        person.age = 20
+//        person.phone = String(format: "13800000%03ld", 0)
+//        do {
+//            let string = try person.jsonStr()
+//            print("\(String(describing: string))")
+//            if let data = string?.data(using: .utf8) {
+//                let person = try Person.initialization(data)
+//                let id = person.identity
+//                print("\(id)")
+//            }
+//        } catch {
+//            print("\(error)")
+//        }
+
+        CompareUtil.shared.decodeDemo()
+        
+//        TestData.shared.generateJSONFile()
+
+//        do {
+//            let fullSub = FullSub()
+//            fullSub.id = UUID()
+//            fullSub.string = "FullSub"
+//
+//            let fullEncoder = JSONEncoder()
+//            let fullData = try fullEncoder.encode(fullSub)
+//            let fullString = String(data: fullData, encoding: .utf8)
+//            print("\(String(describing: fullString))")
+//
+//            let fullDecoder = JSONDecoder()
+//            let fullSubDecoded: FullSub = try fullDecoder.decode(FullSub.self, from: fullString!.data(using: .utf8)!)
+//            print("\(fullSubDecoded)")
+//        } catch {
+//
+//        }
         return true
     }
 

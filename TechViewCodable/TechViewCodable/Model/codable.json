@@ -1,0 +1,1666 @@
+{
+    "identity": "0001",
+    "teams": [
+              {
+              "identity": "201",
+              "name": "团队: 001",
+              "location": "地址: 001",
+              "members": [
+                          {
+                          "age": 20,
+                          "identity": "30002",
+                          "phone": "13800000002",
+                          "name": "人名: 002",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30003",
+                          "phone": "13800000003",
+                          "name": "人名: 003",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30004",
+                          "phone": "13800000004",
+                          "name": "人名: 004",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30005",
+                          "phone": "13800000005",
+                          "name": "人名: 005",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30006",
+                          "phone": "13800000006",
+                          "name": "人名: 006",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30007",
+                          "phone": "13800000007",
+                          "name": "人名: 007",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30008",
+                          "phone": "13800000008",
+                          "name": "人名: 008",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30009",
+                          "phone": "13800000009",
+                          "name": "人名: 009",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30010",
+                          "phone": "13800000010",
+                          "name": "人名: 010",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30011",
+                          "phone": "13800000011",
+                          "name": "人名: 011",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          }
+                          ]
+              },
+              {
+              "identity": "202",
+              "name": "团队: 002",
+              "location": "地址: 002",
+              "members": [
+                          {
+                          "age": 20,
+                          "identity": "30003",
+                          "phone": "13800000003",
+                          "name": "人名: 003",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30004",
+                          "phone": "13800000004",
+                          "name": "人名: 004",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30005",
+                          "phone": "13800000005",
+                          "name": "人名: 005",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30006",
+                          "phone": "13800000006",
+                          "name": "人名: 006",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30007",
+                          "phone": "13800000007",
+                          "name": "人名: 007",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30008",
+                          "phone": "13800000008",
+                          "name": "人名: 008",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30009",
+                          "phone": "13800000009",
+                          "name": "人名: 009",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30010",
+                          "phone": "13800000010",
+                          "name": "人名: 010",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30011",
+                          "phone": "13800000011",
+                          "name": "人名: 011",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30012",
+                          "phone": "13800000012",
+                          "name": "人名: 012",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          }
+                          ]
+              },
+              {
+              "identity": "203",
+              "name": "团队: 003",
+              "location": "地址: 003",
+              "members": [
+                          {
+                          "age": 20,
+                          "identity": "30004",
+                          "phone": "13800000004",
+                          "name": "人名: 004",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30005",
+                          "phone": "13800000005",
+                          "name": "人名: 005",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30006",
+                          "phone": "13800000006",
+                          "name": "人名: 006",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30007",
+                          "phone": "13800000007",
+                          "name": "人名: 007",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30008",
+                          "phone": "13800000008",
+                          "name": "人名: 008",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30009",
+                          "phone": "13800000009",
+                          "name": "人名: 009",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30010",
+                          "phone": "13800000010",
+                          "name": "人名: 010",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30011",
+                          "phone": "13800000011",
+                          "name": "人名: 011",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30012",
+                          "phone": "13800000012",
+                          "name": "人名: 012",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30013",
+                          "phone": "13800000013",
+                          "name": "人名: 013",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          }
+                          ]
+              },
+              {
+              "identity": "204",
+              "name": "团队: 004",
+              "location": "地址: 004",
+              "members": [
+                          {
+                          "age": 20,
+                          "identity": "30005",
+                          "phone": "13800000005",
+                          "name": "人名: 005",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30006",
+                          "phone": "13800000006",
+                          "name": "人名: 006",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30007",
+                          "phone": "13800000007",
+                          "name": "人名: 007",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30008",
+                          "phone": "13800000008",
+                          "name": "人名: 008",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30009",
+                          "phone": "13800000009",
+                          "name": "人名: 009",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30010",
+                          "phone": "13800000010",
+                          "name": "人名: 010",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30011",
+                          "phone": "13800000011",
+                          "name": "人名: 011",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30012",
+                          "phone": "13800000012",
+                          "name": "人名: 012",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30013",
+                          "phone": "13800000013",
+                          "name": "人名: 013",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30014",
+                          "phone": "13800000014",
+                          "name": "人名: 014",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          }
+                          ]
+              },
+              {
+              "identity": "205",
+              "name": "团队: 005",
+              "location": "地址: 005",
+              "members": [
+                          {
+                          "age": 20,
+                          "identity": "30006",
+                          "phone": "13800000006",
+                          "name": "人名: 006",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30007",
+                          "phone": "13800000007",
+                          "name": "人名: 007",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30008",
+                          "phone": "13800000008",
+                          "name": "人名: 008",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30009",
+                          "phone": "13800000009",
+                          "name": "人名: 009",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30010",
+                          "phone": "13800000010",
+                          "name": "人名: 010",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30011",
+                          "phone": "13800000011",
+                          "name": "人名: 011",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30012",
+                          "phone": "13800000012",
+                          "name": "人名: 012",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30013",
+                          "phone": "13800000013",
+                          "name": "人名: 013",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30014",
+                          "phone": "13800000014",
+                          "name": "人名: 014",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30015",
+                          "phone": "13800000015",
+                          "name": "人名: 015",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          }
+                          ]
+              },
+              {
+              "identity": "206",
+              "name": "团队: 006",
+              "location": "地址: 006",
+              "members": [
+                          {
+                          "age": 20,
+                          "identity": "30007",
+                          "phone": "13800000007",
+                          "name": "人名: 007",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30008",
+                          "phone": "13800000008",
+                          "name": "人名: 008",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30009",
+                          "phone": "13800000009",
+                          "name": "人名: 009",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30010",
+                          "phone": "13800000010",
+                          "name": "人名: 010",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30011",
+                          "phone": "13800000011",
+                          "name": "人名: 011",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30012",
+                          "phone": "13800000012",
+                          "name": "人名: 012",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30013",
+                          "phone": "13800000013",
+                          "name": "人名: 013",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30014",
+                          "phone": "13800000014",
+                          "name": "人名: 014",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30015",
+                          "phone": "13800000015",
+                          "name": "人名: 015",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30016",
+                          "phone": "13800000016",
+                          "name": "人名: 016",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          }
+                          ]
+              },
+              {
+              "identity": "207",
+              "name": "团队: 007",
+              "location": "地址: 007",
+              "members": [
+                          {
+                          "age": 20,
+                          "identity": "30008",
+                          "phone": "13800000008",
+                          "name": "人名: 008",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30009",
+                          "phone": "13800000009",
+                          "name": "人名: 009",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30010",
+                          "phone": "13800000010",
+                          "name": "人名: 010",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30011",
+                          "phone": "13800000011",
+                          "name": "人名: 011",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30012",
+                          "phone": "13800000012",
+                          "name": "人名: 012",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30013",
+                          "phone": "13800000013",
+                          "name": "人名: 013",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30014",
+                          "phone": "13800000014",
+                          "name": "人名: 014",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30015",
+                          "phone": "13800000015",
+                          "name": "人名: 015",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30016",
+                          "phone": "13800000016",
+                          "name": "人名: 016",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          },
+                          {
+                          "age": 20,
+                          "identity": "30017",
+                          "phone": "13800000017",
+                          "name": "人名: 017",
+                          "jobs": [
+                                   {
+                                   "name": "Job: 01",
+                                   "identity": "4001",
+                                   "cost": 100
+                                   },
+                                   {
+                                   "name": "Job: 02",
+                                   "identity": "4002",
+                                   "cost": 200
+                                   },
+                                   {
+                                   "name": "Job: 03",
+                                   "identity": "4003",
+                                   "cost": 300
+                                   }
+                                   ]
+                          }
+                          ]
+              }
+              ],
+    "name": "公司名称",
+    "location": "公司地址"
+}
