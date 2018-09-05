@@ -97,8 +97,9 @@ class CompareUtil {
     private func decodeWithCodable() -> Company? {
         var ret: Company?
         do {
-            let jsonString = decodeString()
-            ret = try Company.initialization(jsonString)
+            if let jsonData = decodeData() {
+                ret = try Company.initialization(jsonData)
+            }
         } catch {}
         return ret
     }
@@ -168,5 +169,15 @@ class CompareUtil {
             } catch {}
         }
         return ret ?? ""
+    }
+
+    private func decodeData() -> Data? {
+        var ret: Data?
+        if let path = Bundle.main.path(forResource: "codable", ofType: "json") {
+            do {
+                ret = try Data(contentsOf: URL(fileURLWithPath: path))
+            } catch {}
+        }
+        return ret
     }
 }
