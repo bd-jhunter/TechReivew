@@ -13,6 +13,10 @@
 		422C476D21426C4700FCFA39 /* TechReviewCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 422C476B21426C4700FCFA39 /* TechReviewCoreData.xcdatamodeld */; };
 		422C476F21426C4800FCFA39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422C476E21426C4800FCFA39 /* Assets.xcassets */; };
 		422C477221426C4800FCFA39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422C477021426C4800FCFA39 /* LaunchScreen.storyboard */; };
+		422C477D21426F2D00FCFA39 /* TechReviewCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 422C477B21426F2D00FCFA39 /* TechReviewCoreData.xcdatamodeld */; };
+		422C478021427BB600FCFA39 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422C477E21427BB600FCFA39 /* Person+CoreDataClass.swift */; };
+		422C478121427BB600FCFA39 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422C477F21427BB600FCFA39 /* Person+CoreDataProperties.swift */; };
+		A35FFF4CA17CE3D39294BE45 /* libPods-TechReviewCoreData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC40778435D46F907429DE3 /* libPods-TechReviewCoreData.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,12 @@
 		422C476E21426C4800FCFA39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		422C477121426C4800FCFA39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		422C477321426C4800FCFA39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422C477C21426F2D00FCFA39 /* TechReviewCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TechReviewCoreData.xcdatamodel; sourceTree = "<group>"; };
+		422C477E21427BB600FCFA39 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		422C477F21427BB600FCFA39 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5CC40778435D46F907429DE3 /* libPods-TechReviewCoreData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TechReviewCoreData.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CA423601356ED53AE20D87 /* Pods-TechReviewCoreData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechReviewCoreData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TechReviewCoreData/Pods-TechReviewCoreData.debug.xcconfig"; sourceTree = "<group>"; };
+		F0CE0FC838098CD938CBEB42 /* Pods-TechReviewCoreData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechReviewCoreData.release.xcconfig"; path = "Pods/Target Support Files/Pods-TechReviewCoreData/Pods-TechReviewCoreData.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A35FFF4CA17CE3D39294BE45 /* libPods-TechReviewCoreData.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24EB2C29E728EC9B850EA3A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CC40778435D46F907429DE3 /* libPods-TechReviewCoreData.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		422C475821426C4700FCFA39 = {
 			isa = PBXGroup;
 			children = (
 				422C476321426C4700FCFA39 /* TechReviewCoreData */,
 				422C476221426C4700FCFA39 /* Products */,
+				C1D5337D70B12FE7B311EB8E /* Pods */,
+				24EB2C29E728EC9B850EA3A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +77,8 @@
 		422C476321426C4700FCFA39 /* TechReviewCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				422C477A21426E4300FCFA39 /* FMDB */,
+				422C477921426E1B00FCFA39 /* CoereData */,
 				422C476421426C4700FCFA39 /* AppDelegate.swift */,
 				422C476621426C4700FCFA39 /* ViewController.swift */,
 				422C476821426C4700FCFA39 /* Main.storyboard */,
@@ -67,6 +90,32 @@
 			path = TechReviewCoreData;
 			sourceTree = "<group>";
 		};
+		422C477921426E1B00FCFA39 /* CoereData */ = {
+			isa = PBXGroup;
+			children = (
+				422C477E21427BB600FCFA39 /* Person+CoreDataClass.swift */,
+				422C477F21427BB600FCFA39 /* Person+CoreDataProperties.swift */,
+				422C477B21426F2D00FCFA39 /* TechReviewCoreData.xcdatamodeld */,
+			);
+			path = CoereData;
+			sourceTree = "<group>";
+		};
+		422C477A21426E4300FCFA39 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		C1D5337D70B12FE7B311EB8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9CA423601356ED53AE20D87 /* Pods-TechReviewCoreData.debug.xcconfig */,
+				F0CE0FC838098CD938CBEB42 /* Pods-TechReviewCoreData.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +123,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 422C477621426C4800FCFA39 /* Build configuration list for PBXNativeTarget "TechReviewCoreData" */;
 			buildPhases = (
+				BB921BA039109A64B0FA2844 /* [CP] Check Pods Manifest.lock */,
 				422C475D21426C4700FCFA39 /* Sources */,
 				422C475E21426C4700FCFA39 /* Frameworks */,
 				422C475F21426C4700FCFA39 /* Resources */,
@@ -133,12 +183,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BB921BA039109A64B0FA2844 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TechReviewCoreData-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		422C475D21426C4700FCFA39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				422C477D21426F2D00FCFA39 /* TechReviewCoreData.xcdatamodeld in Sources */,
 				422C476721426C4700FCFA39 /* ViewController.swift in Sources */,
+				422C478121427BB600FCFA39 /* Person+CoreDataProperties.swift in Sources */,
+				422C478021427BB600FCFA39 /* Person+CoreDataClass.swift in Sources */,
 				422C476521426C4700FCFA39 /* AppDelegate.swift in Sources */,
 				422C476D21426C4700FCFA39 /* TechReviewCoreData.xcdatamodeld in Sources */,
 			);
@@ -282,11 +356,13 @@
 		};
 		422C477721426C4800FCFA39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9CA423601356ED53AE20D87 /* Pods-TechReviewCoreData.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PWUBJF64PG;
 				INFOPLIST_FILE = TechReviewCoreData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +376,13 @@
 		};
 		422C477821426C4800FCFA39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0CE0FC838098CD938CBEB42 /* Pods-TechReviewCoreData.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PWUBJF64PG;
 				INFOPLIST_FILE = TechReviewCoreData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -346,6 +424,16 @@
 				422C476C21426C4700FCFA39 /* TechReviewCoreData.xcdatamodel */,
 			);
 			currentVersion = 422C476C21426C4700FCFA39 /* TechReviewCoreData.xcdatamodel */;
+			path = TechReviewCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		422C477B21426F2D00FCFA39 /* TechReviewCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				422C477C21426F2D00FCFA39 /* TechReviewCoreData.xcdatamodel */,
+			);
+			currentVersion = 422C477C21426F2D00FCFA39 /* TechReviewCoreData.xcdatamodel */;
 			path = TechReviewCoreData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
