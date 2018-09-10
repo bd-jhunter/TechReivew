@@ -5,4 +5,5 @@ inhibit_all_warnings!
 
 target 'TechReviewCoreData' do
     pod 'FMDB'
+    pod 'MBProgressHUD'
 end
