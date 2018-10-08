@@ -31,6 +31,7 @@ class ViewController: UIViewController {
         view.addSubview(contentView)
         view.addSubview(button)
         self.edgesForExtendedLayout = []
+        title = "我是SanpKit的Demo"
 //        layoutWithSnapKit(titleLabel: titleLabel, contentView: contentView, button: button)
 //        layoutWithAutoLayout(titleLabel: titleLabel, contentView: contentView, button: button)
         layoutWithAutoLayoutVFL(titleLabel: titleLabel, contentView: contentView, button: button)
